@@ -2,7 +2,7 @@ require 'prime'
 
 def prime?(num)
   num = 2 
-  if num.prime?
+  if num.even?
     true 
   else 
     false 
