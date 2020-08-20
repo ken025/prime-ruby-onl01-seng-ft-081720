@@ -2,7 +2,7 @@ require 'prime'
 
 def prime?(num)
   num = 2 
-  if num.even?
+  if num.prime?
     true 
   else 
     false 
@@ -12,9 +12,9 @@ end
 def prime?(num)
   num = -1 
   if num.prime?
-    true
-  else 
     false
+  else 
+    true
   end 
 end 
   
