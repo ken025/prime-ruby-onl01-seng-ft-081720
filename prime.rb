@@ -1,6 +1,6 @@
 require 'prime'
 
-def prime?(n)
+def prime?(number)
 
  start = 2
   if number > 1
