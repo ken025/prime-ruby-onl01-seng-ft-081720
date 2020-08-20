@@ -6,3 +6,13 @@ def prime?(num)
     false 
   end 
 end
+
+def prime?(num)
+  num = -1 
+  if num.odd?
+    true 
+  else 
+    false 
+  end 
+end 
+  
