@@ -4,7 +4,7 @@ def prime?(number)
  number = 2 
  if number.prime? 
    true 
-   elsif 
+ else
    false 
  end 
  end 
