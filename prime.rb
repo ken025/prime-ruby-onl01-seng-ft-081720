@@ -5,4 +5,10 @@ def prime?(n)
  start = 2
   if number > 1
     range = (start..number-1).to_a
-    range.prime? 
+   if range.prime? 
+     true 
+   else 
+     false 
+   end 
+ end
+    
