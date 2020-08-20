@@ -1,6 +1,6 @@
 require 'prime'
 
-def prime?(num)
+def prime?(n)
   num = 2 
   if num.prime?
     true 
@@ -9,12 +9,12 @@ def prime?(num)
   end 
 end
 
-def prime?(num)
+def prime?(non_prime)
   num = -1 
   if num.prime?
-    false
-  else 
     true
+  else 
+    false
   end 
 end 
   
