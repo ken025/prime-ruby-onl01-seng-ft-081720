@@ -1,15 +1,15 @@
 require 'prime'
 
 def prime?(n)
-  num = 2 
-  if num.prime?
+  n = 2 
+  if n.prime?
     true 
   else 
     false 
   end 
 end
 
-def prime?(non_prime)
+def prime?(num)
   num = -1 
   if num.prime?
     true
