@@ -7,9 +7,9 @@ def prime?(n)
     range = (start..number-1).to_a
    if range.prime? 
      true 
-   else 
-     false 
    end 
  end
+ else 
+     false 
  end 
     
