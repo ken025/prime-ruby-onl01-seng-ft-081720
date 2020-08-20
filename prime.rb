@@ -12,9 +12,9 @@ end
 def prime?(num)
   num = -1 
   if num.prime?
-    false
-  else 
     true
+  else 
+    false
   end 
 end 
   
