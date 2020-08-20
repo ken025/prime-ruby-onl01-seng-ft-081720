@@ -1,6 +1,6 @@
 def prime?(num)
   num = 2 
-  if num.even?
+  if num.prime?
     true 
   else 
     false 
@@ -9,8 +9,8 @@ end
 
 def prime?(num)
   num = -1 
-  if num.odd?
-    true 
+  if num.prime?
+    false
   else 
     false 
   end 
