@@ -12,7 +12,7 @@ def prime?(num)
   if num.prime?
     false
   else 
-    tue
+    true
   end 
 end 
   
